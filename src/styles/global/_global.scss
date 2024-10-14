@@ -1,0 +1,17 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+//personaliza el scroll tamaño y color
+::-webkit-scrollbar {
+  width: 5px;
+  background: #94aef331;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3384ff;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,46 @@
+@import "./nft.scss";
+
+.shop {
+  .content {
+    padding-top: 75px;
+    padding-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    main {
+      width: 95%;
+      max-width: 1300px;
+    }
+  }
+
+  #shopBg {
+    position: fixed !important;
+  }
+
+  .titulo {
+    color: #fff;
+    font-family: "Protest Riot";
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+
+    text-shadow: 0 0 1px #ddcd55, 0 0 2px #000, 0 0 10px #000, 0 0 5px #000;
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    p {
+      padding-left: 20px;
+    }
+  }
+
+  .nft-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 20px;
+    justify-items: center;
+  }
+}

@@ -1,0 +1,16 @@
+.content {
+  .cardHeroes {
+    @include card;
+    border-radius: 10px;
+    padding: 10px 20px;
+    /* box-shadow: none; */
+
+    aspect-ratio: 16/9;
+    /* max-width: 360px; */
+
+    h2,
+    p {
+      text-align: center;
+    }
+  }
+}

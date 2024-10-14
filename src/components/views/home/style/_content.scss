@@ -1,0 +1,79 @@
+#bgHome {
+  position: fixed !important;
+}
+
+main {
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    flex-direction: column;
+    color: #fff;
+    padding: 100px 0;
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 42px;
+      text-transform: uppercase;
+      font-weight: 400;
+      text-shadow: 0px 0px 20px hsl(0deg 0% 0%);
+      font-family: "Protest Riot";
+      font-weight: 400;
+      text-align: center;
+    }
+
+    P {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+
+      text-shadow: 0px 0px 20px hsl(0deg 0% 0%);
+      font-family: "Protest Riot";
+    }
+
+    .wallet {
+      margin-top: 10px;
+      min-width: 140px;
+      background-color: #ffffff29;
+      backdrop-filter: blur(10px);
+      color: #fff;
+      border: 1px solid rgba(#fff, 0.9);
+      @include button-size-on-click(0.95);
+      @include button-border-animation(2s);
+      &.tw-connected-wallet {
+        &::before {
+          display: none;
+        }
+        span {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    .content {
+      padding: 105px 0;
+      h2 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    .content {
+      padding: 70px 0;
+    }
+  }
+}

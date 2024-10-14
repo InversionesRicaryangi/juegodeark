@@ -1,0 +1,153 @@
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 1000;
+
+  min-height: 52px;
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(#000, 0.5);
+
+    background: linear-gradient(
+      90deg,
+      rgba(#3d1300, 0.5) 0%,
+      rgba(#00243d, 0.5) 100%
+    );
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+    backdrop-filter: blur(20px);
+    align-items: center;
+    max-width: 95%;
+    min-width: 95%;
+
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(#fff, 0.9);
+
+    button {
+      background: none;
+      border: none;
+      color: #fff;
+      display: grid;
+      display: none;
+      gap: 2px;
+
+      cursor: pointer;
+
+      span {
+        border: 1px solid #fff;
+        /* height: 1px; */
+        width: 20px;
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-weight: 400;
+      font-family: "Protest Riot";
+    }
+
+    nav {
+      ul {
+        display: flex;
+
+        li {
+          margin-left: 10px;
+          color: #fff;
+          cursor: pointer;
+          list-style: none;
+
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          font-weight: 600;
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+          .wallet {
+            all: unset;
+            min-width: initial !important;
+
+            div {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  .logo1 {
+    width: 2px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    top: 0;
+
+    .desktop {
+      border: none;
+      border-bottom: 1px solid white;
+      border-radius: 0;
+      h2 {
+        font-size: 1.5em;
+      }
+
+      button {
+        display: grid;
+      }
+
+      nav {
+        background: linear-gradient(90deg, rgb(14 21 34) 0%, rgba(0, 36, 61, 0.733) 100%);
+        background-size: 200% 200%;
+        backdrop-filter: blur(20px);
+        right: -100%;
+        transition: all ease 500ms;
+        display: grid;
+        position: fixed;
+        top: 52px;
+        height: 100vh;
+        /* background-color: #000; */
+        align-items: start;
+        padding: 10px 0 0 15px;
+        &.active {
+          right: 0;
+        }
+
+        ul {
+          display: grid;
+          align-items: start;
+          align-content: center;
+          padding: 0;
+          gap: 20px;
+          width: 300px;
+        }
+      }
+    }
+  }
+  .logo {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  .logo1 {
+    width: 20px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+}
