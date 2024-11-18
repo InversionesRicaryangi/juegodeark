@@ -54,7 +54,7 @@ const Home: React.FC<HomeProps> = () => {
               <a href="https://t.me/darkagelegends" target="_blank" rel="noopener noreferrer">
              <img src="/imagen1.png" alt="Telegram" style={{ marginRight: '10px' }} width="50" height="auto"  />
              </a>
-            <a href="https://www.anotherexample.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/darkagelegends" target="_blank" rel="noopener noreferrer">
             <img src="/imagen2.jpg" alt="Discord" style={{ marginRight: '10px' }} width="50" height="auto" />
             </a>
             </div>
