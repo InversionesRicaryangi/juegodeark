@@ -51,7 +51,7 @@ const Home: React.FC<HomeProps> = () => {
               <p>Defend the world with your NFTs</p>
               <ConnectWallet className="wallet" style={{ marginBottom: '20px' }} />
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/darkagelegends" target="_blank" rel="noopener noreferrer">
              <img src="/imagen1.png" alt="Telegram" style={{ marginRight: '10px' }} width="50" height="auto"  />
              </a>
             <a href="https://www.anotherexample.com" target="_blank" rel="noopener noreferrer">
