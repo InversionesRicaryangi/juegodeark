@@ -30,7 +30,10 @@ const Header: React.FC<HeaderProps> = () => {
               <Link href="/shop">Shop</Link>
             </li>
             <li>
-              <Link href="/withdraw">Withdraw</Link>
+              <a href="https://home.goksway.com/login" target="_blank">Withdraw</a>
+            </li>
+            <li>
+              <a href="https://dark-age-legends.gitbook.io/dark-age-legends/~/changes/5OiqmHv8aTso8Zttxi2U?r=S4tQb6SS0oKa1qvOE4tA" target="_blank">WHITEPAPER</a>
             </li>
             <li>
               <ConnectWallet className="wallet" btnTitle="wallet" />
