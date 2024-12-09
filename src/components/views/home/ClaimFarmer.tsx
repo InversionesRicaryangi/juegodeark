@@ -38,7 +38,7 @@ const ClaimFarmer = () => {
 
       <Web3Button
         contractAddress={FARMER_ADDRESS}
-        action={(contract) => contract.erc1155.claim(0, 1)}
+        action={(contract) => contract.erc1155.claim(1, 1)}
         className="wallet" style={{ marginBottom: '-50px' , marginTop: "100px"}}
         
       >

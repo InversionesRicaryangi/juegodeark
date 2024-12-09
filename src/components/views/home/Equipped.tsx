@@ -17,7 +17,7 @@ const Equipped: React.FC<EquippedProps> = () => {
 
   return (
     <div className="equipo">
-      <h2>Monsters to attack:</h2>
+      <h2>Heroes to attack:</h2>
       <div className="container-nft-equipados">
         {equippedTools &&
           equippedTools[0].map((nft: BigNumber) => (
