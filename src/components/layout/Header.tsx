@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = () => {
               <a href="https://home.goksway.com/login" target="_blank">Withdraw</a>
             </li>
             <li>
-              <a href="https://dark-age-legends.gitbook.io/dark-age-legends/~/changes/5OiqmHv8aTso8Zttxi2U?r=S4tQb6SS0oKa1qvOE4tA" target="_blank">WHITEPAPER</a>
+              <a href="https://drive.google.com/file/d/1nDb1wk1-VUQyyHHcrBoxQLvnTDaggUMw/view" target="_blank">WHITEPAPER</a>
             </li>
             <li>
               <ConnectWallet className="wallet" btnTitle="wallet" />

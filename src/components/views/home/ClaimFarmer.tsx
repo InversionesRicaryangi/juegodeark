@@ -20,7 +20,7 @@ const ClaimFarmer = () => {
         height: "50vh",
       }}
     >
-      <h1 style={{ color: "white",borderRadius: "-150px", marginTop: "100px",
+      <h1 style={{ color: "white",borderRadius: "-450px", marginTop: "300px",
           marginBottom: "-400px",}} >
         Claim your DARK AGE LEGENDS to start generating
       </h1>
@@ -38,7 +38,7 @@ const ClaimFarmer = () => {
 
       <Web3Button
         contractAddress={FARMER_ADDRESS}
-        action={(contract) => contract.erc1155.claim(0, 1)}
+        action={(contract) => contract.erc1155.claim(1, 1)}
         className="wallet" style={{ marginBottom: '-50px' , marginTop: "100px"}}
         
       >
