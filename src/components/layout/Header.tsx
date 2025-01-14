@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = () => {
               <a href="https://home.goksway.com/login" target="_blank">Withdraw</a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1LPC80lPLPikLPxb4ehs2kE0bFrGnqBZ2/view?usp=sharing" target="_blank">WHITEPAPER</a>
+              <a href="https://drive.google.com/file/d/1LPC80lPLPikLPxb4ehs2kE0bFrGnqBZ2/view" target="_blank">WHITEPAPER</a>
             </li>
             <li>
               <ConnectWallet className="wallet" btnTitle="wallet" />
